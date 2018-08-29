@@ -11,7 +11,7 @@ import unittesting.*;
 //@RunWith(Cucumber.class)
 @RunWith(OctaneCucumber.class)
 //The below was done to insure a good run no matter what other feature files may be added.
-@CucumberOptions(plugin = {"junit:leanftResults.xml"}, features="classpath:advantage.feature")//the feature to execute
+@CucumberOptions(plugin = {"junit:leanftResults.xml"}, features="src/main/features")//the feature to execute
 public class LeanFtTest extends UnitTestClassBase {
 
 	public LeanFtTest() {
